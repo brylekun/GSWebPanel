@@ -1,0 +1,74 @@
+[
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Home",
+        "link": "",
+        "visibility": "always",
+        "newtab": false,
+        "order": 1
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Downloads",
+        "link": "downloads",
+        "visibility": "always",
+        "newtab": false,
+        "order": 2
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Donation",
+        "link": "donation",
+        "visibility": "always",
+        "newtab": true,
+        "order": 3
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "E-Shop",
+        "link": "eshop?ctg=all",
+        "visibility": "user",
+        "newtab": false,
+        "order": 4
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "V-Shop",
+        "link": "vshop?ctg=all",
+        "visibility": "user",
+        "newtab": false,
+        "order": 5
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "Donation List",
+        "link": "Donation List",
+        "visibility": "always",
+        "newtab": true,
+        "order": 10
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Rankings",
+        "link": "rankings",
+        "visibility": "always",
+        "newtab": false,
+        "order": 11
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Register",
+        "link": "register",
+        "visibility": "guest",
+        "newtab": false,
+        "order": 12
+    }
+]

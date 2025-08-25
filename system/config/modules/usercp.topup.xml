@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<active>1</active>
+	<topup_enable_recaptcha>1</topup_enable_recaptcha>
+	<topup_recaptcha_public_key>6LcSJxAUAAAAADTpvweWa1duHPjzAzDe5u4cb_pL</topup_recaptcha_public_key>
+	<topup_recaptcha_private_key>6LcSJxAUAAAAAARP5ZV3mNpfH_r50uGNX95EDRRM</topup_recaptcha_private_key>
+	<topup_log>1</topup_log>
+</settings>

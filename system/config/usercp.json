@@ -1,0 +1,132 @@
+[
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "View Account",
+        "link": "usercp\/myaccount",
+        "icon": "account.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 1
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "Top up",
+        "link": "usercp\/topup",
+        "icon": "topup.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 2
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "Account Fix",
+        "link": "usercp\/accfix",
+        "icon": "accfix.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 3
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Change School",
+        "link": "usercp\/changeschool",
+        "icon": "changeschool.png",
+        "visibility": "user",
+        "newtab": true,
+        "order": 4
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Change Password",
+        "link": "usercp\/mypassword\/",
+        "icon": "changepassword.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 5
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Change Email",
+        "link": "usercp\/myemail",
+        "icon": "changeemail.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 6
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Convert GameTime",
+        "link": "usercp\/gametime",
+        "icon": "gametime.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 7
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "VP to EP",
+        "link": "usercp\/vptoep",
+        "icon": "vptoep.png",
+        "visibility": "user",
+        "newtab": true,
+        "order": 8
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "EP to VP",
+        "link": "usercp\/eptovp",
+        "icon": "eptovp.png",
+        "visibility": "user",
+        "newtab": true,
+        "order": 9
+    },
+    {
+        "active": false,
+        "type": "internal",
+        "phrase": "Help Desk",
+        "link": "ticket\/all",
+        "icon": "usercp_default.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 11
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Vote",
+        "link": "usercp\/vote",
+        "icon": "vote.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 14
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Change Pin",
+        "link": "usercp\/changepin",
+        "icon": "usercp_default.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 15
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "Log out",
+        "link": "logout",
+        "icon": "logoff.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 20
+    }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<active>1</active>
+	<costvp>0</costvp>
+	<costep>200</costep>
+	<cooldown>1</cooldown>
+	<cooldowntime>24</cooldowntime>
+</settings>

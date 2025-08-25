@@ -1,0 +1,353 @@
+#demo-bar {
+
+}
+/**
+ * Vista theme for jixedbar
+ * written by Ryan Yonzon, http://ryan.rawswift.com/
+ * Last update: July 15, 2010 
+ * 
+ * NOTE: This theme are NOT yet fully tested for this release (0.0.4) 
+ * 
+ */
+				
+/*----- bar style -----*/
+.btn_vote {
+
+	text-align: center;
+
+
+	
+}
+.v_btn {
+	color: #FFF;
+}
+.jx-bar {
+	height:30px;
+	padding:0px;
+	width:997px;
+	background-color:#141414;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #292929;
+	border-right-color: #292929;
+	border-left-color: #292929;
+	-moz-box-shadow: 0 0 4px #000;
+	-webkit-box-shadow: 0 0 4px #000;
+}
+.jx-bar_logo {
+	margin-top: -300px;
+	padding-top: -300px;
+}
+
+
+	/* rounded top-left corner */
+	.jx-bar-rounded-tl {
+		-webkit-border-top-left-radius:5px;
+		-khtml-border-radius-topleft:5px;	
+		-moz-border-radius-topleft:5px;
+		border-top-left-radius:5px;
+	}
+
+	/* rounded bottom-left corner */
+	.jx-bar-rounded-bl {
+		-webkit-border-bottom-left-radius:5px;
+		-khtml-border-radius-bottomleft:5px;	
+		-moz-border-radius-bottomleft:5px;
+		border-bottom-left-radius:5px;
+	}
+
+	/* rounded top-right corner */
+	.jx-bar-rounded-tr {
+		-webkit-border-top-rigth-radius:5px;
+		-khtml-border-radius-topright:5px;	
+		-moz-border-radius-topright:5px;
+		border-top-right-radius:5px;
+
+	}
+
+	/* rounded bottom-right corner */
+	.jx-bar-rounded-br {
+		-webkit-border-bottom-right-radius:5px;
+		-khtml-border-radius-bottomright:5px;	
+		-moz-border-radius-bottomright:5px;
+		border-bottom-right-radius:5x;
+	}
+
+/*----- bar separator -----*/
+.jx-bar span {
+	width:1px;
+	height:100%;
+	background-color:#292929;
+}
+
+	.jx-separator-left {
+		float:left;
+	}
+	
+	.jx-separator-right {
+		float:right;
+	}
+
+/*----- bar button -----*/
+.jx-bar-button ul {
+	margin:0px;
+	padding:0px;
+}
+
+.jx-bar-button li {
+	float:left;
+	list-style:none;
+	cursor: pointer;
+}
+
+.jx-bar-button-right li {
+	float:right;
+	list-style:none;	
+}
+
+.jx-bar-button li {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	cursor:pointer;
+	padding:4px 8px 4px 8px;
+	border:#141414 solid 1px;		
+	margin:2px;
+}
+	
+	/*	button hover effect	*/
+	.jx-bar-button li:hover {
+		background-color:#383838;
+		border:#141414 solid 1px;
+		padding:4px 8px 4px 8px;
+		margin:2px;
+	}
+
+	/* rounded button corners */
+	.jx-bar-button-rounded li:hover {
+		-webkit-border-radius:3px;
+		-khtml-border-radius:3px;	
+		-moz-border-radius:3px;
+		border-radius:3px;
+	}
+	
+	/* default button's anchor text style */
+	.jx-bar-button li a:link, .jx-bar-button li a:visited {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		color:#ccc;
+		text-decoration:none;
+		padding:1px;
+	}
+
+	.jx-bar-button li a:hover {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		color:#fff;
+		text-decoration:none;
+	}
+
+/*----- bar text container and button arrow indicator -----*/
+.jx-bar div, .jx-bar iframe {
+	float:left;
+}
+
+.jx-bar div {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ccc;
+	padding:4px 8px 4px 8px;
+	margin:4px 0px 4px 0px;
+}
+
+.jx-bar iframe {
+	margin:4px 0px 4px 10px;
+}
+
+	.jx-bar div a:link, .jx-bar div a:visited {
+		color:#ccc;
+		text-decoration:none;
+	}
+
+	.jx-bar div a:hover {
+		color:#FF6600;
+		text-decoration:none;
+	}
+
+/*----- button tooltip -----*/
+.jx-bar-button-tooltip {
+	height:auto;
+	padding:5px 10px 5px 10px;
+	color:#fff;
+	background-color:#FF6600;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-radius: 6px;
+}
+
+	/* rounded tooltip */
+	.jx-bar-button-tooltip {
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-radius: 3px;
+	}
+
+/*----- nav menu -----*/
+.jx-nav-menu {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:2px;
+	background-color:#141414;
+	border:#292929 solid 1px;
+}
+
+	.jx-nav-menu-rounded {
+		-webkit-border-radius:3px;
+		-khtml-border-radius:3px;	
+		-moz-border-radius:3px;
+		border-radius:3px;
+	}
+
+.jx-nav-menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:150px; /* width of menu items */
+}
+
+.jx-nav-menu a:hover {
+	background-color:#4c4c4c;
+	color:#fff;
+}
+	
+/* styles for menu items */
+.jx-nav-menu ul li a {
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	background:#303030; /* IE6 Bug */
+	padding:8px;
+	border:1px solid #141414; /* IE6 Bug */
+	border-bottom:0px;
+	cursor: pointer;
+}
+
+/* active menu button */
+.jx-nav-menu-active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	cursor:pointer;
+	background-color:#404040;
+	padding:4px 8px 4px 8px;
+	margin:2px;
+}
+
+/* active menu button (rounded) */
+.jx-nav-menu-active-rounded {
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;	
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+/* menu indicator UP state */
+.jx-arrow-up {
+	background-image:url(up.gif);
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+/* menu indicator DOWN state */
+.jx-arrow-down {
+	background-image:url('dn.gif');
+	background-repeat:no-repeat;
+	background-position: center;	
+}
+
+/* tooltip point direction */
+.jx-tool-point-dir-down {
+	background-image:url('ttd.gif');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	height:5px;
+	width:auto;
+}
+
+.jx-tool-point-dir-up {
+	background-image:url('ttu.gif');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	height:5px;
+	width:auto;
+}
+
+/* hide and show/unhide item */
+.jx-hide {
+	float:right;
+	background-image:url('hide.gif');
+	background-repeat:no-repeat;
+	height:16px;
+	width:16px;
+}
+
+	/* if showOnTop is TRUE, use "show.gif" instead of "hide.gif" */
+	.jx-hide-top {
+		float:right;
+		background-image:url('show.gif');
+		background-repeat:no-repeat;
+		height:16px;
+		width:16px;
+	}
+
+.jx-show {
+	height:30px;
+	padding:0px;
+	width:40px;
+	background-color:#141414;
+	border:#292929 solid 1px;
+}
+
+.jx-show-button {
+	float:right;
+	background-image:url('show.gif');
+	background-repeat:no-repeat;
+	height:16px;
+	width:16px;
+}
+
+	.jx-show-button-top {
+		float:right;
+		background-image:url('hide.gif');
+		background-repeat:no-repeat;
+		height:16px;
+		width:16px;
+	}
+
+.jx-hide-separator {
+	width:1px;
+	height:100%;
+	background-color:#000;
+	float:right;
+}
+.text-container {
+	width: 410px;
+}
+    #task_logo_wrapper {
+	bottom: 0px;
+	right: 50%;
+	position: fixed;
+	width: 150px;
+    }
+    
+    #task_logo {
+	left: -240%;
+	position: relative;
+	top: 50%;
+    }

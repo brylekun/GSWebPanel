@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Revalia);
+
+/* GUILD AND PROFILES */
+.profiles_guild_table {
+	width: 100%;
+	table-layout: fixed;
+	margin: 10px auto;
+	background: #fff;
+	padding: 250px;
+}
+
+.gname {
+	
+	text-align: center;
+	font-size: 52px;
+	color: #ff0000;
+}
+
+.profiles_guild_table tr td {
+	text-align: left;
+}
+
+.profiles_guild_table .gname {
+	
+	text-align: center;
+	font-size: 52px;
+	color: #ff0000;
+}
+
+.profiles_guild_table .gmembs {
+
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+
+.profiles_guild_table .memblist {
+	text-align: center;
+	background: #000;
+}
+
+.profiles_guild_table .memblist div {
+	float: left;
+	width: 20%;
+	display: inline;
+}
+
+/* PLAYER PROFILES */
+.profiles_player_card {
+	width: 716px;
+	height: 400px;
+	padding-top: 0px;
+}
+	.BM.profiles_player_card,.BF.profiles_player_card { background: url('../images/profiles/brawler_bg.jpg') no-repeat; }
+	.AF.profiles_player_card,.AM.profiles_player_card { background: url('../images/profiles/archer_bg.jpg') no-repeat; }
+	.SF.profiles_player_card,.SM.profiles_player_card { background: url('../images/profiles/swordsman_bg.jpg') no-repeat; }
+	.SHF.profiles_player_card,.SHM.profiles_player_card { background: url('../images/profiles/shaman_bg.jpg') no-repeat; }
+	.EF.profiles_player_card,.EM.profiles_player_card { background: url('../images/profiles/extreme_bg.jpg') no-repeat; }
+	.GF.profiles_player_card,.GM.profiles_player_card { background: url('../images/profiles/scientist_bg.jpg') no-repeat; }
+	.ASF.profiles_player_card,.ASM.profiles_player_card { background: url('../images/profiles/assassin_bg.jpg') no-repeat; }
+	.MF.profiles_player_card,.MM.profiles_player_card { background: url('../images/profiles/magician_bg.jpg') no-repeat; }
+	.SPF.profiles_player_card,.SPM.profiles_player_card { background: url('../images/profiles/shaper_bg.jpg') no-repeat; }
+	
+
+.profiles_player_content {
+	float: right;
+	width: 500px;
+	height: 400px;
+	padding-top: 0px;
+}
+.character_info {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #978b7d;
+    position: absolute;
+    top: 210px;
+    left: 0;
+}
+
+.profiles_player_table {
+	width: 100%;
+}
+
+.profiles_player_table .cname {
+	font-family: 'Revalia', cursive;
+	text-align: center;
+	font-size: 24px;
+	color: #ff0000;
+}
+
+.profiles_player_table .cclass {
+	text-align: center;
+	font-size: 11px;
+	color: #000000;
+}
+
+.profiles_player_table .isoffline {
+	color: #ff0000;
+}
+
+.profiles_player_table .isonline {
+	color: #00ff00;
+}
+
+.profiles_player_table_info {
+	table-layout: fixed;
+	margin-top: 10px;
+}
+.profiles_player_table_info tr td {
+	padding: 3px 10px;
+}
+.profiles_player_table_info tr td:first-child {
+	text-align: right;
+}
+
+.characterList {
+    width: 650px;
+    float: left;
+}

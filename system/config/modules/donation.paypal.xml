@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<active>0</active>
+	<paypal_enable_sandbox>0</paypal_enable_sandbox>
+	<paypal_email>https://www.paypal.com/myaccount/transfer/request</paypal_email>
+	<paypal_title>Donation for Classico Online EP</paypal_title>
+	<paypal_currency>PHP</paypal_currency>
+	<paypal_return_url>http://127.0.0.1/RanPanelv2/</paypal_return_url>
+	<paypal_notify_url>http://127.0.0.1/RanPanelv2/api/paypal.php</paypal_notify_url>
+	<paypal_conversion_rate>1</paypal_conversion_rate>
+	<credit_config></credit_config>
+</settings>

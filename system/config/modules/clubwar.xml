@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<active>1</active>
+	<enable_banner>1</enable_banner>
+	<cw_battle_day>1,3,5,7</cw_battle_day>
+	<cw_battle_time>21</cw_battle_time>
+	<cw_battle_duration>60</cw_battle_duration>
+</settings>

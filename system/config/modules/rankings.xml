@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+	<active>1</active>
+	<rankings_results>20</rankings_results>
+	<rankings_show_date>1</rankings_show_date>
+	<rankings_show_default>all</rankings_show_default>
+	<rankings_show_place_number>1</rankings_show_place_number>
+	<rankings_enable_all>1</rankings_enable_all>
+	<rankings_enable_brawler>1</rankings_enable_brawler>
+	<rankings_enable_swords>1</rankings_enable_swords>
+	<rankings_enable_archer>1</rankings_enable_archer>
+	<rankings_enable_shaman>1</rankings_enable_shaman>
+	<rankings_enable_ex3m>0</rankings_enable_ex3m>
+	<rankings_enable_gunner>0</rankings_enable_gunner>
+	<rankings_enable_assassin>0</rankings_enable_assassin>
+	<rankings_enable_magician>0</rankings_enable_magician>
+	<rankings_enable_shaper>0</rankings_enable_shaper>
+	<rankings_show_reborn>0</rankings_show_reborn>
+	<rankings_show_kills>1</rankings_show_kills>
+	<rankings_enable_toprich>1</rankings_enable_toprich>
+	<rankings_enable_toplevel>0</rankings_enable_toplevel>
+	<rankings_enable_toponline>1</rankings_enable_toponline>
+</settings>
